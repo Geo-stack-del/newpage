@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    color: #F6F6F6;
+    box-sizing: border-box;
+}
+strong{
+    color: #22D4FD;
+}
+img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+}
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.descricao {
+    font-size: 16px;
+}
+.titulo-destaque{
+    color: 22D4FD;
+}
+.apresentacao__conteudo{
+    width: 615px;
+}
+.apresentacao__conteudo__titulo{
+    font-size: 36px;
+    font-family:  "Raleway", sans-serif;
+
+}
+.apresentacao__conteudo__texto{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+
+}
+.apresentacao__links{
+    display: flex;
+    justify-content: space-between;
+
+}
+.apresentacao__links__link{
+    background-color: #22D4FD;
+    width: 280px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color:black;
+    font-family: "Montserrat", sans-serif;
+    
+}
